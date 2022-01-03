@@ -70,6 +70,7 @@ p, input, label, select{
     background-color: white;
     border-radius: 15px;
     padding: 3em;
+    width: 50%;
 }
 
 .form-gap{
@@ -77,6 +78,12 @@ p, input, label, select{
     gap: 7px;
 }
 
+.result-form-container{
+    background-color: white;
+    border-radius: 15px;
+    padding: 3em;
+    width: 30%;
+}
 fieldset{
     border: none;
     padding: 0%;
