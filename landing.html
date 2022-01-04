@@ -17,7 +17,7 @@
         <form id="calorie-tracker-form" method="GET" action="results.html" class="form-container">
             <div class="column center">
                 <div class="form-gap row">
-                    <input type="number" class="" id="age" placeholder="Age" name="age" required>
+                    <input type="number" class="" id="age" placeholder="Age" name="age" min=1 required>
                     <fieldset id="gender" class="row">
                         <label>Gender: </label>
                         <div style="padding-left:10px">
@@ -31,8 +31,8 @@
                     </fieldset>
                 </div>
                 <div class="form-gap row">
-                    <input type="number" class="" id="weight" name="weight" placeholder="Weight (in kg)" required>
-                    <input type="number" class="" id="height" name="height" placeholder="Height (in cm)" required>
+                    <input type="number" class="" id="weight" name="weight" placeholder="Weight (in kg)" min=1 required>
+                    <input type="number" class="" id="height" name="height" placeholder="Height (in cm)" min=1 required>
                 </div>
                 <div class="form-gap row" style="padding-bottom:25px;">
                     <select class="custom-select" id="activity" name="activity" placeholder="Activity" required>
