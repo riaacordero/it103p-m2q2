@@ -78,12 +78,18 @@ p, input, label, select{
     gap: 7px;
 }
 
-.result-form-container{
+.result-form-container {
     background-color: white;
     border-radius: 15px;
     padding: 3em;
-    width: 30%;
 }
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 3em;
+}
+
 fieldset{
     border: none;
     padding: 0%;
